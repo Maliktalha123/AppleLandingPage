@@ -1,0 +1,94 @@
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  position: fixed;
+  width: 100% !important;
+  background-color: rgba(250, 255, 255, 0.5);
+}
+.navbar {
+  max-width: 1050px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  margin: auto;
+  justify-content: space-between;
+  height: 50px;
+}
+i {
+  cursor: pointer;
+}
+.navbar li {
+  list-style: none;
+}
+.navbar li:hover {
+  cursor: pointer;
+  color: grey;
+}
+.Apple-Content {
+  margin-top: 20px;
+  width: 33%;
+  position: absolute;
+  top: 655px;
+  left: 500px;
+}
+.Vision-Pro div {
+  width: 33%;
+
+  margin: auto;
+}
+.Vision-Pro img {
+  width: 20px;
+  height: 30px;
+}
+.Vision-Pro span {
+  font-weight: 900;
+  font-size: 25px;
+}
+.Body-Heading {
+  /* line-height: 40px; */
+  font-size: 25px;
+  font-weight: 900;
+}
+.Body-Button {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+}
+.Learn-Button {
+  width: 120px;
+
+  height: 45px;
+  border: 1px solid;
+  border-radius: 20px;
+  font-size: 17px;
+  cursor: pointer;
+  margin-left: 75px;
+}
+.Learn-Button:hover {
+  background-color: rgb(37, 36, 36);
+  color: white;
+}
+.Buy-Button {
+  background-color: #0071e3;
+  width: 70px;
+  height: 45px;
+  border: 1px solid;
+  border-radius: 20px;
+  font-size: 17px;
+  cursor: pointer;
+  margin-left: 35px;
+  color: white;
+}
+.Buy-Button:hover{
+    background-color: #005cb8;
+}
+.footer li{
+    
+    list-style: none;
+}
